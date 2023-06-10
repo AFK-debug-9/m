@@ -35,5 +35,6 @@ while True:
       nlog += b
     nlog += '\n'
     if nlog == '\n':
+      print('Restarting...')
       break
     logs.append(nlog)
