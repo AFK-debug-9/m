@@ -3,6 +3,8 @@ from flask import Flask
 from threading import Thread
 import random
 
+os.system('chmod +x ./heck')
+
 app = Flask('')
 
 @app.route('/')
